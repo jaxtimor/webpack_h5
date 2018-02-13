@@ -1,11 +1,21 @@
 const apps = [
     {
         moduleName:'a',
-        entry:'a/index.html'
+        entryJs:'a/index.js',
+        entryHtml:'a/index.html'
     },
     {
         moduleName:'b',
-        entry:'b/index.html'
+        entryJs:'b/index.js',
+        entryHtml:'b/index.html'
+    },
+    {
+        moduleName:'c',
+        entryJs:'c/index.js',
+        entryHtml:'c/index.html',
+        extract:{
+            vendor:['lodash']
+        }
     }
 ]
 
